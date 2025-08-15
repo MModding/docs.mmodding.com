@@ -1,9 +1,8 @@
 export default [
     {
-        text: "EDA",
+        text: "Content",
         items: [
-            { text: "Introduction", link: "/eda/" },
-            { text: "a", link: "/eda/u" }
+            { text: "Introduction", link: "/env-driven-assets" }
         ]
     }
 ]

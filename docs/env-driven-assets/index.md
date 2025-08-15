@@ -1,6 +1,4 @@
 ---
-title: EDA Documentation
-description: blank
+title: Environment Driven Assets Documentation
+description: The Official Environment Driven Assets Documentation
 ---
-
-EDA
