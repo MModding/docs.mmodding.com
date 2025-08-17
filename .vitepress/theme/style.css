@@ -137,3 +137,12 @@
   --docsearch-primary-color: var(--vp-c-brand-1) !important;
 }
 
+/**
+ * Documentation Page Customization
+ * -------------------------------------------------------------------------- */
+
+.vp-doc-header {
+    font-family: "Lexend", sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+}
