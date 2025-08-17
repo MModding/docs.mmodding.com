@@ -1,6 +1,6 @@
 import { defineConfig } from "vitepress"
 import library from "./sidebars/library"
-import eda from "./sidebars/eda"
+import envjson from "./sidebars/env-json"
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -15,7 +15,7 @@ export default defineConfig({
       { text: "Project Docs", link: "/" },
     ],
 
-    sidebar: { library, "env-driven-assets": eda },
+    sidebar: {library, "env-json": envjson},
 
     socialLinks: [
       { icon: "youtube", link: "https://mmodding.com/youtube" },

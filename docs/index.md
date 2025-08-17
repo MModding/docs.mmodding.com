@@ -13,9 +13,9 @@ features:
     details: The Official MModding Library Documentation
     link: /library
     linkText: Open documentation
-  - title: Environment Driven Assets
+  - title: env.json
     icon: ⏳
-    details: The Official Environment Driven Assets Documentation
-    link: /env-driven-assets
+    details: The Official env.json Documentation
+    link: /env-json
     linkText: Open documentation
 ---
