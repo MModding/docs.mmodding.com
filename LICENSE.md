@@ -1,7 +1,7 @@
 ### License for docs.mmodding.com Past, Current and Future Assets:
 
 ```
-Copyright (c) 2025 MModding
+Copyright (c) 2025-2026 MModding
 
 All rights reserved.
 ```
