@@ -2,8 +2,6 @@
 title: Extended Mod Initializers
 ---
 
-# The Entrypoint Interface
-
 With the updates of Minecraft making the game more and more complex with a lot of new stuff, I never truly was
 satisfied with the usual ways of structuring a mod's codebase.
 

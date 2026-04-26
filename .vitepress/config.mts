@@ -10,6 +10,8 @@ export default defineConfig({
   description: "The Official MModding Documentations Website, providing docs to development-side projects.",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
+    logo: "https://github.com/MModding/art/blob/main/brand/little_mmodding%20_dark.png?raw=true",
+
     nav: [
       { text: "Home", link: "https://mmodding.com" },
       { text: "Project Docs", link: "/" },
