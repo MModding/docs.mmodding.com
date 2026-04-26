@@ -1,4 +1,4 @@
-### License for mmodding.com Past, Current and Future Assets:
+### License for docs.mmodding.com Past, Current and Future Assets:
 
 ```
 Copyright (c) 2025 MModding
