@@ -11,7 +11,7 @@ features:
   - title: MModding Library
     icon: ⏳
     details: The Official MModding Library Documentation
-    link: /library
+    link: /library/intro
     linkText: Open documentation
   - title: env.json
     icon: ⏳
