@@ -7,9 +7,11 @@ export default defineConfig({
   srcDir: "docs",
   cleanUrls: true,
   title: "MModding Documentation",
-  description: "The Official MModding Documentations Website, providing docs to development-side projects.",
+  description: "The Official MModding Documentation Website, providing docs to development-side projects.",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
+    siteTitle: "MModding Docs",
+
     logo: "https://github.com/MModding/art/blob/main/brand/little_mmodding%20_dark.png?raw=true",
 
     nav: [
