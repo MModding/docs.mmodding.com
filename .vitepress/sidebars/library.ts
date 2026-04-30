@@ -21,8 +21,7 @@ export default [
         text: "Config",
         items: [
             { text: "Creating a Config for your Mod", link: "/library/config" },
-            { text: "Default Config Element Types", link: "/library/config/default-element-types" },
-            { text: "Custom Config Element Types", link: "/library/config/custom-element-types" }
+            { text: "Config Element Types", link: "/library/config/element-types" },
         ]
     },
     {
