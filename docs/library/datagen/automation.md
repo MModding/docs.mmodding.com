@@ -53,7 +53,7 @@ DGA will save you a bunch of time and would enhance your codebase management.
 
 Let's go back to our data generation entrypoint, inside the `#setupManager` method, and let's write this:
 
-```
+```java
 public class ExampleModDataGenerator implements ExtendedDataGeneratorEntrypoint {
 
 	public void setupManager(DataManager manager) {
