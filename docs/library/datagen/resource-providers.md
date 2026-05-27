@@ -2,14 +2,12 @@
 title: Resource Providers
 ---
 
-Since a few major updates now, Mojang started the Datafication process.
-It means that more and more content types of the game can be configured through the use of Data Packs.
+The datafication process is sometime confusing. That's at least what I sometime think of it.
+A lot of configurations steps are more like "configuring an implementation" that you should actually
+not have to deal with, as it should be part of the implementation.
 
-For modders, it meant removal of builtin registrations to these registries.
-Now, it's done through the use of data generation.
-
-Though, I, again, find that the process has a really confusing structure. As such, I made resource providers to handle
-any "unnecessary" things for you, while cleaning up the codebase.
+As such, resource providers are removing the requirement of configuring middle steps. Just make your stuff and
+configure it, and that's all.
 
 You will have to run the data generation task every time you change resources of these providers. After all, it works
 by setting up all of that stuff for you.
@@ -46,12 +44,12 @@ public class MModdingExampleBiomeResources {
 }
 ```
 
-Then, let's go back to our entrypoint, and put it in the manager:
+Then, let's go back to our data generator entrypoint, and put it in the manager:
 
 ```java
-public class MModdingExampleMod implements ExtendedModInitializer {
+public class MModdingExampleModDataGenerator implements ExtendedDataGeneratorEntrypoint {
 
-	public void setupManager(ElementsManager manager) {
+	public void setupManager(DataManager manager) {
 		// ...
 		manager.resource(Registries.BIOME, MModdingExampleBiomeResources::configure);
 	}
