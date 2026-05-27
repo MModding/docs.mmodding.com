@@ -48,7 +48,8 @@ export default [
             { text: "Resource Providers", link: "/library/datagen/resource-providers" },
             { text: "Data Manager & Automated Data Generation", link: "/library/datagen/automation" },
             { text: "Default Data Handlers", link: "/library/datagen/handlers" },
-            { text: "Processor Catalog", link: "/library/datagen/processor-catalog" }
+            { text: "Processor Catalog", link: "/library/datagen/processor-catalog" },
+            { text: "Additional Data Providers", link: "/library/datagen/data-providers" }
         ]
     },
     {
