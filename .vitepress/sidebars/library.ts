@@ -11,7 +11,6 @@ export default [
         items: [
             { text: "Extended Mod Initializers", link: "/library/core/initializers" },
             { text: "Content Providers", link: "/library/core/content-providers" },
-            { text: "Resource Providers", link: "/library/core/resource-providers" },
             { text: "Lite Registries", link: "/library/core/lite-registries" },
             { text: "Resource Key Attachments", link: "/library/core/rka" },
             { text: "Registry Companions", link: "/library/core/registry-companions" }
@@ -46,6 +45,7 @@ export default [
         text: "DataGen",
         items: [
             { text: "Extended Data Generator Entrypoints", link: "/library/datagen/entrypoints" },
+            { text: "Resource Providers", link: "/library/datagen/resource-providers" },
             { text: "Data Manager & Automated Data Generation", link: "/library/datagen/automation" },
             { text: "Default Data Handlers", link: "/library/datagen/handlers" },
             { text: "Processor Catalog", link: "/library/datagen/processor-catalog" }
@@ -85,9 +85,7 @@ export default [
     {
         text: "Network",
         items: [
-            { text: "Friend Byte Buff Extensions", link: "library/network/buf-extensions" },
-            { text: "Network Handlers", link: "library/network/handlers" },
-            { text: "Delayed Network", link: "library/network/delayed" }
+            { text: "Network/ByteBuf Codecs Catalog", link: "library/network/catalog" }
         ]
     },
     {

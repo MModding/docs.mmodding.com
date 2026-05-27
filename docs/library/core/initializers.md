@@ -54,7 +54,7 @@ public class MModdingExampleMod implements ExtendedModInitializer {
 		return IdentifierUtil.texture(namespace(), path);
 	}
 
-	public static <T> ResourceKey<T> createKey(RegistryKey<? extends Registry<T>> registry, String path) {
+	public static <T> ResourceKey<T> createKey(ResourceKey<? extends Registry<T>> registry, String path) {
 		return ResourceKey.create(registry, createId(path));
 	}
 }
@@ -69,4 +69,4 @@ An `ElementsManager` has three methods:
 - `ElementsManager#content` allows you to put a `ContentProvider`. More details [here](./content-providers).
 - `ElementsManager#ifMoreLoaded` allows you to put a `ContentProvider`, which would only be applied if the
   corresponding mod namespace is matched by Fabric Loader.
-- `ElementsManager#resource` allows you to put a `ResourceProvider` for a specific Dynamic Registry. More details [here](./resource-providers).
+- `ElementsManager#resource` allows you to put a `ResourceProvider` for a specific Dynamic Registry. More details [here](../datagen/resource-providers.md).
