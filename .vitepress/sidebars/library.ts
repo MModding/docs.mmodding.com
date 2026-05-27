@@ -46,7 +46,7 @@ export default [
         items: [
             { text: "Extended Data Generator Entrypoints", link: "/library/datagen/entrypoints" },
             { text: "Resource Providers", link: "/library/datagen/resource-providers" },
-            { text: "Data Manager & Automated Data Generation", link: "/library/datagen/automation" },
+            { text: "Automated Data Generation", link: "/library/datagen/automation" },
             { text: "Default Data Handlers", link: "/library/datagen/handlers" },
             { text: "Processor Catalog", link: "/library/datagen/processor-catalog" },
             { text: "Additional Data Providers", link: "/library/datagen/data-providers" }

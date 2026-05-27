@@ -26,7 +26,7 @@ This is our very base example implementation.
 
 - `ExtendedDataGeneratorEntrypoint#setupManager` allows setting `ResourceProvider`s to [generate world registry
   json files](./resource-providers.md), and configuring [automated data generation](./automation.md).
-- `ExtendedDataGeneratorEntrypoint#onInitializeDataGenerator` lets you provide [additional data providers](./data-providiers.md) that do not
+- `ExtendedDataGeneratorEntrypoint#onInitializeDataGenerator` lets you provide [additional data providers](./data-providers.md) that do not
   work for automation, or that are not intended for world registry exportation.
 
 These two are being detailed in their own respective pages.
