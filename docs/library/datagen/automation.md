@@ -96,5 +96,8 @@ didn't put before: the predicate (or selection if you like cherry-picking), and 
 And here it gets interesting: it gives you another chain manager. But this one, has previous processed entries
 excluded for any newer filter you will apply.
 
+The chain manager also provides a method with the same name, but that only takes a processor and returns nothing:
+it ends the chain by a processor being applied to the remaining elements.
+
 So, if we come back to our example, you could first cherry-pick the super special anvil, and then chain
 with the usual anvil block model processing.
