@@ -18,7 +18,3 @@ in the documentation of other modules.
 I would also recommend to look at the [Official Fabric Documentation](https://docs.fabricmc.net/develop), as it
 provides very useful documentation for subjects that are expanded with the library, or just other stuff in general
 that this documentation could not cover, as not part of the targeted subjects.
-
-# Table of Contents
-
-[[toc]]

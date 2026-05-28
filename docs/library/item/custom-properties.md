@@ -21,5 +21,5 @@ And to get back the setting, just give an `ItemLike` instance (either an `Item` 
 to the `CustomItemProperty#get` method, alongside your property:
 
 ```java
-int aura = CustomItemProperty.get(ExampleModItems.EXAMPLE_ITEM, ExampelModItemProperties.AURA);
+int aura = CustomItemProperty.get(ExampleModItems.EXAMPLE_ITEM, ExampleModItemProperties.AURA);
 ```
