@@ -15,7 +15,7 @@ public class ExampleModBlockProperties {
 }
 ```
 
-You can then do `BlockBehavior.Properties.ofFullCopy(Blocks.STONE).custom(ExampleModBlockProperties.SHOUTH_MESSAGE, "I will eat the cupcakes!")`.
+You can then do `BlockBehavior.Properties.ofFullCopy(Blocks.STONE).custom(ExampleModBlockProperties.SHOUTH_MESSAGE, "I want cupcakes!")`.
 
 And to get back the setting, just give a `Block` instance to the `CustomBlockProperty#get` method,
 alongside your property:
