@@ -27,7 +27,6 @@ export default [
         text: "Item",
         items: [
             { text: "Creating and Registering Items", link: "/library/item" },
-            { text: "Item Categories", link: "/library/item/categories" },
             { text: "Custom Item Properties", link: "/library/item/custom-properties" },
             { text: "Catalog", link: "/library/item/catalog" }
         ]
