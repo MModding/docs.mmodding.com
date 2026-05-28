@@ -20,4 +20,6 @@ You can then do `new Item.Properties().custom(ExampleModItemProperties.AURA, 10)
 And to get back the setting, just give an `ItemLike` instance (either an `Item` instance or a `Block` instance),
 to the `CustomItemProperty#get` method, alongside your property:
 
-`int aura = CustomItemProperty.get(ExampleModItems.EXAMPLE_ITEM, ExampelModItemProperties.AURA);`
+```java
+int aura = CustomItemProperty.get(ExampleModItems.EXAMPLE_ITEM, ExampelModItemProperties.AURA);
+```
