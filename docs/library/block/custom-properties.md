@@ -11,7 +11,7 @@ Let's look at an example:
 ```java
 public class ExampleModBlockProperties {
 
-	public static final CustomBlockProperty<String> SHOUT_MESSAGE = CustomBlockProperty.create(MModdingExampleMod.createId("aura"), String.class, "Archeon is delayed...");
+	public static final CustomBlockProperty<String> SHOUT_MESSAGE = CustomBlockProperty.create(MModdingExampleMod.createId("shout_message"), String.class, "Archeon is delayed...");
 }
 ```
 
